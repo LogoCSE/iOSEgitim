@@ -10,3 +10,11 @@ iOS Eğitim Döküman ve Kodları
 - Var let types print
 - if yapısı
 - for yapısı
+
+2. Gün Objeler
+
+- Fonksiyonlar
+- Class ve Structlar
+- Protocol
+- Inheritance
+- Closures
