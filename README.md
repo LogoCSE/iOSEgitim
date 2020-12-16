@@ -18,3 +18,12 @@ iOS Eğitim Döküman ve Kodları
 - Protocol
 - Inheritance
 - Closures
+
+3. Gün Xcode
+
+- Xcode yapısı
+- Proje oluşturma
+- Proje hierarşi ve mimarisi
+- Assetler
+- Label Button bağlama
+- @IBOutlet, @IBAction

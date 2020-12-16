@@ -133,3 +133,41 @@ class Multiplier: MyProtocol {
     
 }
 
+//Protocol Oriented Employee
+protocol CostableProtocol {
+    func getCost() -> Int
+}
+
+class Machine: CostableProtocol {
+    func getCost() -> Int {
+        return 100
+    }
+}
+
+class EmployeeP: CostableProtocol {
+    var age: Int = 0
+    
+    func getCost() -> Int{
+        return 10000
+    }
+}
+
+class Assistant: EmployeeP {
+    override func getCost() -> Int {
+        return super.getCost() + age * 100
+    }
+}
+
+class Director: EmployeeP {
+    override func getCost() -> Int {
+        return super.getCost() + age * 200
+    }
+}
+
+class CompanyP {
+    var array: [EmployeeP] = []
+}
+
+let company2 = CompanyP()
+company2.array = [Assistant(), Director(), Director(), EmployeeP()]
+
