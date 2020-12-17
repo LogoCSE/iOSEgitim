@@ -23,10 +23,21 @@ class ViewController: UIViewController {
     
     @IBAction func myButtonPressed(_ sender: Any) {
         myLabel.text = "Button Pressed"
+        performSegue(withIdentifier: "GotoSecond", sender: nil)
     }
     
     @IBAction func myButtonPressed2(_ sender: Any) {
         myLabel.text = "Button Pressed 2"
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let secondViewController = storyboard.instantiateViewController(identifier: "SecondViewController") as! SecondViewController
+        secondViewController.centerLabelText = "ViewControllerdan geldi"
+        self.navigationController?.pushViewController(secondViewController, animated: true)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let controller = segue.destination as? SecondViewController {
+            controller.centerLabelText = "Perform Segue"
+        }
     }
     
 }

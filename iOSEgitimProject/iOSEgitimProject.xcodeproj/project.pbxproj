@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB33BDC9258B97620083526C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB33BDC8258B97620083526C /* SecondViewController.swift */; };
 		CBAF7981258A41070079D856 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF7980258A41070079D856 /* AppDelegate.swift */; };
 		CBAF7983258A41070079D856 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF7982258A41070079D856 /* SceneDelegate.swift */; };
 		CBAF7985258A41070079D856 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF7984258A41070079D856 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB33BDC8258B97620083526C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		CBAF797D258A41070079D856 /* iOSEgitimProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSEgitimProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBAF7980258A41070079D856 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBAF7982258A41070079D856 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				CBAF7984258A41070079D856 /* ViewController.swift */,
+				CB33BDC8258B97620083526C /* SecondViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB33BDC9258B97620083526C /* SecondViewController.swift in Sources */,
 				CBAF7985258A41070079D856 /* ViewController.swift in Sources */,
 				CBAF7981258A41070079D856 /* AppDelegate.swift in Sources */,
 				CBAF7983258A41070079D856 /* SceneDelegate.swift in Sources */,
