@@ -27,3 +27,21 @@ iOS Eğitim Döküman ve Kodları
 - Assetler
 - Label Button bağlama
 - @IBOutlet, @IBAction
+
+4. Gün Navigation
+
+- Alert basma
+- Ekran geçişleri
+- Cihaz üzerine veri kaydetme
+
+5. Gün
+
+- OOP
+- iOS Human Guidelines
+- Tarihçe
+- App Lifecycle
+
+6. Gün
+
+- ScrollView
+- Singleton pattern
