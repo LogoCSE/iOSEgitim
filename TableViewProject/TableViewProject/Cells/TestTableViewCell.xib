@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TestTableViewCell" rowHeight="100" id="KGk-i7-Jjw" customClass="TestTableViewCell" customModule="TableViewProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="RBY-Ra-pyX">
+                        <rect key="frame" x="15" y="15" width="290" height="70"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X1d-QQ-vcj">
+                                <rect key="frame" x="0.0" y="0.0" width="86.5" height="70"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WZy-TS-PKj">
+                                <rect key="frame" x="101.5" y="0.0" width="87" height="70"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPu-Jm-oq4">
+                                <rect key="frame" x="203.5" y="0.0" width="86.5" height="70"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonTouched:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="9ha-sK-Of3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="WZy-TS-PKj" firstAttribute="width" secondItem="X1d-QQ-vcj" secondAttribute="width" id="YYF-qh-4fa"/>
+                            <constraint firstItem="XPu-Jm-oq4" firstAttribute="width" secondItem="X1d-QQ-vcj" secondAttribute="width" id="qdH-SF-iwg"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="RBY-Ra-pyX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="BzA-Q9-qYP"/>
+                    <constraint firstItem="RBY-Ra-pyX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="CKw-rW-EAy"/>
+                    <constraint firstAttribute="trailing" secondItem="RBY-Ra-pyX" secondAttribute="trailing" constant="15" id="NGK-GB-HZs"/>
+                    <constraint firstAttribute="bottom" secondItem="RBY-Ra-pyX" secondAttribute="bottom" constant="15" id="xVO-3i-7HW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="button" destination="XPu-Jm-oq4" id="3bI-Ip-8hI"/>
+                <outlet property="firstLabel" destination="X1d-QQ-vcj" id="kAF-R1-BXb"/>
+                <outlet property="secondLabel" destination="WZy-TS-PKj" id="mpN-km-NI3"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="171.42857142857142"/>
+        </tableViewCell>
+    </objects>
+</document>

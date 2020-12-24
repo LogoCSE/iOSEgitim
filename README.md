@@ -34,14 +34,19 @@ iOS Eğitim Döküman ve Kodları
 - Ekran geçişleri
 - Cihaz üzerine veri kaydetme
 
-5. Gün
+5. Gün Genel Bilgiler
 
 - OOP
 - iOS Human Guidelines
 - Tarihçe
 - App Lifecycle
 
-6. Gün
+6. Gün ScrollView
 
 - ScrollView
 - Singleton pattern
+
+7. Gün Tableiew
+- TableView
+- StackView
+- Delegation Pattern
