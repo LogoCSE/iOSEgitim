@@ -50,3 +50,7 @@ iOS Eğitim Döküman ve Kodları
 - TableView
 - StackView
 - Delegation Pattern
+
+8. Gün CollectionView
+- CollectionView
+- CollectionViewLayoıut
