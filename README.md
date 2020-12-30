@@ -54,3 +54,8 @@ iOS Eğitim Döküman ve Kodları
 8. Gün CollectionView
 - CollectionView
 - CollectionViewLayoıut
+
+9. Gün Cocoapods
+- Observer Pattern
+- Cocoapods
+- Kütüphane ekleme.

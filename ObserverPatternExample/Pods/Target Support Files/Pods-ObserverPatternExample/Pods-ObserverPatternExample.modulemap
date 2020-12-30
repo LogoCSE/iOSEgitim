@@ -1,0 +1,6 @@
+framework module Pods_ObserverPatternExample {
+  umbrella header "Pods-ObserverPatternExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
