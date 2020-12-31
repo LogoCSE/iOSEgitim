@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		827A5BA8ED805023920333BB /* Pods_ObserverPatternExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6565397E4162283A747B2A /* Pods_ObserverPatternExample.framework */; };
+		CB792413259DFB6500DFA0CD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB792412259DFB6500DFA0CD /* User.swift */; };
+		CB792416259DFBEC00DFA0CD /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB792415259DFBEC00DFA0CD /* Results.swift */; };
+		CB792418259DFC9600DFA0CD /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB792417259DFC9600DFA0CD /* Name.swift */; };
 		CB9C9019259CAF8F00875C36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9C9018259CAF8F00875C36 /* AppDelegate.swift */; };
 		CB9C901B259CAF8F00875C36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9C901A259CAF8F00875C36 /* SceneDelegate.swift */; };
 		CB9C901D259CAF8F00875C36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9C901C259CAF8F00875C36 /* ViewController.swift */; };
@@ -23,6 +26,9 @@
 		0A6565397E4162283A747B2A /* Pods_ObserverPatternExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObserverPatternExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E506DAD6E2DE7F66425C2B8 /* Pods-ObserverPatternExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObserverPatternExample.release.xcconfig"; path = "Target Support Files/Pods-ObserverPatternExample/Pods-ObserverPatternExample.release.xcconfig"; sourceTree = "<group>"; };
 		666D5C9626DAB3FDDAD58E3C /* Pods-ObserverPatternExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObserverPatternExample.debug.xcconfig"; path = "Target Support Files/Pods-ObserverPatternExample/Pods-ObserverPatternExample.debug.xcconfig"; sourceTree = "<group>"; };
+		CB792412259DFB6500DFA0CD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CB792415259DFBEC00DFA0CD /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		CB792417259DFC9600DFA0CD /* Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
 		CB9C9015259CAF8F00875C36 /* ObserverPatternExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObserverPatternExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9C9018259CAF8F00875C36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB9C901A259CAF8F00875C36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +71,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CB792414259DFB9000DFA0CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB792412259DFB6500DFA0CD /* User.swift */,
+				CB792415259DFBEC00DFA0CD /* Results.swift */,
+				CB792417259DFC9600DFA0CD /* Name.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		CB9C900C259CAF8F00875C36 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +102,7 @@
 		CB9C9017259CAF8F00875C36 /* ObserverPatternExample */ = {
 			isa = PBXGroup;
 			children = (
+				CB792414259DFB9000DFA0CD /* Model */,
 				CB9C9018259CAF8F00875C36 /* AppDelegate.swift */,
 				CB9C901A259CAF8F00875C36 /* SceneDelegate.swift */,
 				CB9C901C259CAF8F00875C36 /* ViewController.swift */,
@@ -217,10 +234,13 @@
 			files = (
 				CB9C901D259CAF8F00875C36 /* ViewController.swift in Sources */,
 				CB9C9031259CB8A300875C36 /* Spinner.swift in Sources */,
+				CB792416259DFBEC00DFA0CD /* Results.swift in Sources */,
 				CB9C9019259CAF8F00875C36 /* AppDelegate.swift in Sources */,
 				CB9C902F259CB43400875C36 /* NotificationNames.swift in Sources */,
 				CB9C902D259CB30100875C36 /* ChangeViewController.swift in Sources */,
+				CB792418259DFC9600DFA0CD /* Name.swift in Sources */,
 				CB9C901B259CAF8F00875C36 /* SceneDelegate.swift in Sources */,
+				CB792413259DFB6500DFA0CD /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

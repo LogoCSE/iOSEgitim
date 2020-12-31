@@ -7,5 +7,6 @@ target 'ObserverPatternExample' do
 
   # Pods for ObserverPatternExample
 	pod "SwiftSpinner"
+	pod 'Alamofire', '~> 5.2'
 
 end

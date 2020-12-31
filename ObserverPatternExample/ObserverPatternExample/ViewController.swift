@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class ViewController: UIViewController {
 
@@ -22,6 +23,20 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         NotificationCenter.default.addObserver(self, selector: #selector(changeTitle), name: NSNotification.Name.changeTitle, object: nil)
         Spinner.show()
+        
+        let parameters = [
+            "results": 2
+        ]
+        
+        AF.request("https://randomuser.me/api/", parameters: parameters).responseJSON { response in
+            Spinner.hide()
+            if let data = response.data {
+                let user = try! JSONDecoder().decode(User.self, from: data)
+                print(user.results?[0].name?.first ?? "")
+            } else {
+                //TODO: Alert data yok
+            }
+        }
     }
 
     

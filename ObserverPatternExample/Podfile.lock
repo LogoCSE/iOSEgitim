@@ -1,16 +1,20 @@
 PODS:
+  - Alamofire (5.4.1)
   - SwiftSpinner (2.1.0)
 
 DEPENDENCIES:
+  - Alamofire (~> 5.2)
   - SwiftSpinner
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - SwiftSpinner
 
 SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
   SwiftSpinner: 0f15c006307f8d8bbac075638927ec1361b565d7
 
-PODFILE CHECKSUM: 90d4415650b80531587a0665df13cef71d85cea6
+PODFILE CHECKSUM: 7fdf32e87e4c230a7907e4c4e8e9a08d2d2da319
 
 COCOAPODS: 1.9.3

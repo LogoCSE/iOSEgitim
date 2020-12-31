@@ -59,3 +59,9 @@ iOS Eğitim Döküman ve Kodları
 - Observer Pattern
 - Cocoapods
 - Kütüphane ekleme.
+
+10. Gün
+- HTTP/HTTPS
+- JSON
+- Alamofire
+- Request/Response
